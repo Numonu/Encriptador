@@ -1,0 +1,51 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Reestablecer estilos para los elementos de bloque */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+figure,
+fieldset,
+form,
+legend,
+table,
+td,
+th,
+tr {
+    margin: 0;
+    padding: 0;
+}
+img{
+    max-height: 100%;
+}
+/* Reestablecer estilos para los elementos de formulario */
+button,
+input,
+select,
+textarea {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    font-size: 100%;
+    vertical-align: middle;
+    background: transparent;
+    resize: none;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js" defer></script>
+    <script src="https://kit.fontawesome.com/65a19dc040.js" crossorigin="anonymous" defer></script>
+    <title>Encriptador|Villegas</title>
+</head>
+<body>
+    <div class="content-wrapper">
+        <div class="writing">
+            <div class="writing__logo">
+                <img class="writing__img" src="images/Logo.png">
+            </div>
+            <textarea class="writing__write-space" id="user-input" placeholder="Ingrese el texto aqui"></textarea>
+            <div class="writing__info">
+                <i class="fa-solid fa-circle-info writing__inet"></i>solo letras minusculas sin acento
+            </div>
+            <div class="writing__actions">
+                <button class="writing__button button-left" id="encriptar">Encriptar</button>
+                <button class="writing__button button-right" id="desencriptar">Desencriptar</button>
+            </div>
+        </div>
+        <div class="reading">
+            <div class="reading__read-space reading__read-space--disable" id="user-result"></div>
+            <button class="reading__copy-button reading__copy-button--disable" id="copiar">COPIAR</button>
+            <div class="reading__info" id="help-content">
+                <img class="reading__img" src="images/Muñeco.png">
+                <h1 class="reading__title">Ningun mensaje fue encontrado</h1>
+                <p class="reading__description">
+                    Ingrese el texto que desees encriptar o desencriptar
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
