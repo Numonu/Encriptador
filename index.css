@@ -81,6 +81,7 @@ body{
     border: 2px solid #f45340;
     color: #f45340;
 }
+
 /*============*/
 
 .reading{
@@ -155,6 +156,7 @@ body{
     border: none;
     color: #f45340;
 }
+
 /*============*/
 @media (max-width : 920px) {
     .content-wrapper{
@@ -195,6 +197,7 @@ body{
         margin-top: 15px;
     }
 }
+/*En dispositivos pequeños solo ajustamos el tamaño de la fuente*/
 @media (max-width: 560px) {
     .content-wrapper{
         font-size: 0.7rem;
