@@ -31,13 +31,17 @@ body{
     position: relative;
     left: -2rem;
 }
-.writing__write-space{
+.writing__write-box{
     flex: 1 0 0;
     
     padding: 30px;
 
     border: 2px solid white;
     border-radius: 50px;
+}
+.writing__write-space{
+    height: 100%;
+    width: 100%;
 
     font-size: 1.3rem;
     color: white;
@@ -162,7 +166,7 @@ body{
         flex: 3 0 0;
         padding: 0;
     }
-    .writing__write-space{
+    .writing__write-box{
         padding: 15px;
         border-radius: 20px;
 
