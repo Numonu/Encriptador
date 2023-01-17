@@ -190,7 +190,13 @@ body{
     transform: scale(1.2);
 }
 /*============*/
-@media (max-width : 920px) {
+@media screen and (min-width: 1800px){
+    .content-wrapper{
+        max-width: 1600px;
+        max-height: 1200px;
+    }
+}
+@media screen and (max-width : 920px) {
     .content-wrapper{
         flex-flow: column nowrap;
         max-height: none;
@@ -230,7 +236,7 @@ body{
     }
 }
 /*En dispositivos pequeños solo ajustamos el tamaño de la fuente*/
-@media (max-width: 560px) {
+@media screen and (max-width: 560px) {
     .content-wrapper{
         font-size: 0.7rem;
     }
@@ -241,7 +247,7 @@ body{
         font-size: 1.2rem;
     }
 }
-@media (max-width: 430px) {
+@media screen and (max-width: 430px) {
     .writing__write-space , .reading__title , .reading__read-space{
         font-size: 0.9rem;
     }
